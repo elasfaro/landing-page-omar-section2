@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page - Web Development Sprint</title>
+
+  <!-- Change these Google fonts with your own choice -->
+  <link href="https://fonts.googleapis.com/css?family=Chivo:700|Overpass:400,700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/bdc9bb04ee.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Banner section -->
+<div class="banner">
+  <h1 id="text-1">Le banc n'attend que toi</h1>
+  <br> <br>
+  <p id="text-2" class="hidden">Et toi, tu attends quoi ?</p>
+  <br>
+
+  <script>
+    setTimeout(() => {
+        document.getElementById('text-2').classList.remove('hidden');
+    }, 1000);
+
+    setTimeout(() => {
+        document.getElementById('cta').classList.remove('hidden');
+    }, 1000);
+    
+  </script>
+
+  <br>
+  <a href="" id="cta" class="btn-red hidden">Commence ta semaine gratuite</a>
+
+</div>
+  <!-- Cards section -->
+<div class="section-white">
+  <div class="container">
+    <h2>Les plus de notre club</h2>
+    <div class="cards">
+      <div class="card-white">
+        <img src="images/crossfit.png" alt="crossfit">
+        <h3>Cross-fit</h3>
+        <p>Dépassez vos limites et transformez votre corps dans notre espace de Cross-Fit</p>
+      </div> 
+      <div class="card-white">
+        <img src="images/boxe.jpg" alt="boxe">
+        <h3>Salle de boxe</h3>
+        <p>Entraînez-vous comme un champion dans notre salle équipée</p>
+      </div>
+      <div class="card-white">
+        <img src="images/sauna.jpg" alt="sauna">
+        <h3>Sauna</h3>
+        <p>Après l'effort le réconfort, détendez-vous et récupérez pleinement après vos séances</p>
+      </div>
+  </div>
+
+  <div class="section-black">
+    <div class="container">
+      <h2>Nos formules</h2>
+      <div class="cards">
+        <div class="card-white">
+          <h3> <span class="highlight-bronze">30euros/mois 🥉</span></h3>
+          <br>
+            <li>Accès illimité aux équipements <i class="fa-solid fa-circle-check icon-blue"></i></li>
+            <li>Participation à des cours collectifs <i class="fa-solid fa-circle-check icon-blue"></i></li>
+            <li>Accès au vestiaire et douches <i class="fa-solid fa-circle-check icon-blue"></i></li>
+
+  </div> 
+
+        <div class="card-white">
+          <h3> <span class="highlight-silver">40 euros/mois 🥈
+            <br>
+            </span> <span class="adjust">(la plus choisie <i class="fa-solid fa-fire icon-fire"></i>)</span></h3>
+            <li>Tous les avantages de la Formule 🥉 <i class="fa-solid fa-circle-check icon-blue"></i></li>
+            <li>Accès au CrossFit et la boxe <i class="fa-solid fa-circle-check icon-blue"></i></li>
+            <li>Accès à la balance de pesée <i class="fa-solid fa-circle-check icon-blue"></i></li>
+            
+        </div>
+
+        <div class="card-white">
+          <h3><span class="highlight-gold">50euros/mois 🥇</span></h3>
+          <br>
+            <li>Tous les avantages de la Formule 🥈 <i class="fa-solid fa-circle-check icon-blue"></i></li>
+            <li>Séances individuelles avec un coach <i class="fa-solid fa-circle-check icon-blue"></i></li>
+            <li>Accès sauna et bien-être <i class="fa-solid fa-circle-check icon-blue"></i></li>
+
+        </div>
+    </div>
+
+  <div class="newsletter">
+    <h4>Profite d'un mois offert en t'inscrivant à la newsletter</h4>
+    <form action="#" method="post">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+
+</div>
+  <!-- Footer section -->
+  <div class="footer">
+    <div class="container">
+     
+        <h4><strong>Suivez-nous</strong></h4>
+        
+          <ul class="list-inline">
+            <li><a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.tiktok.com/fr/"></a><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href="https://gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+            
+
+          </ul>
+        </div>
+      </div> 
+
+
+  </div>
+</body>
+</html>
